@@ -131,6 +131,15 @@ img[src="images/Inspección de roedor en jaula.jpg"] {
     }
 }
 }
+.rodent-break {
+	display: inline;
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+	.rodent-title .rodent-break {
+		display: block;
+	}
+}
 .contact-item {
 	display: flex;
  	align-items: center;
